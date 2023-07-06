@@ -95,9 +95,11 @@ public struct SwingAnimationModifier: ViewModifier {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        Color.red.frame(width: 40, height: 40)
-            .modifier(SwingAnimationModifier(duration: 2, direction: .horizontal, distance: 100))
-    }
+
+@available(iOS 16, *)
+#Preview {
+    Circle()
+        .foregroundStyle(.cyan)
+        .frame(width: 40, height: 40)
+        .modifier(SwingAnimationModifier(duration: 2, direction: .horizontal, distance: 100))
 }

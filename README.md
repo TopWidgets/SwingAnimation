@@ -16,7 +16,7 @@ content.swingAnimation(duration: 8, direction: .horizontal, distance: 100)
 ## Requirements
 
 * iOS 14.0+
-* Swift 5.9+
+* Swift 5.8+
 
 ## Installation
 
@@ -24,15 +24,9 @@ content.swingAnimation(duration: 8, direction: .horizontal, distance: 100)
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/octree/SwingAnimation.git", .upToNextMajor(from: "1.0.0"))
+    .package(url: "https://github.com/TopWidgets/SwingAnimation.git", .upToNextMajor(from: "1.0.0"))
 ]
 ```
-
-
-
-## Author
-
-Octree, fouljz@gmail.com
 
 ## License
 
