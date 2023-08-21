@@ -27,7 +27,7 @@ dependencies: [
 ]
 ```
 
-## Download our App
+## Try our App
 <a href = "https://apps.apple.com/cn/app/Top-Widgets⁺/id6446477593">
 <img src = "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/90/e1/ed/90e1edd7-1c19-9b0c-2996-accda8cfddca/AppIcon-1x_U007ephone-85-220.png/246x0w.png"
     style = "width:100;height:100px;"    
