@@ -5,13 +5,12 @@
 
 ## Example
 
+![Demo](./Demo.gif)
 
 
 ```swift
 content.swingAnimation(duration: 8, direction: .horizontal, distance: 100)
 ```
-
-
 
 ## Requirements
 
