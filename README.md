@@ -1,7 +1,7 @@
 # SwingAnimation
 [![SPM](https://img.shields.io/badge/SPM-supported-DE5C43.svg?style=flat)](https://swift.org/package-manager/)
 
-**SwingAnimation** is a framework allows you to apply smooth transition animations in widgets.
+**SwingAnimation** is a framework allows you to apply smooth animations in widgets.
 
 ## Example
 
