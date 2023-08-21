@@ -92,7 +92,7 @@ public struct SwingAnimationModifier: ViewModifier {
     }
 
     public func body(content: Content) -> some View {
-        content.opacity(0)
+        content.hidden()
             .overlay(overlayView(content: content))
     }
 }
