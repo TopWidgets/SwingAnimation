@@ -65,11 +65,13 @@ public struct SwingAnimationModifier: ViewModifier {
             let extendLength = direction == .vertical ? size.height : size.width
             let length: CGFloat = abs(distance) + extendLength
             let innerDiameter = (length + extendLength) / 2
-            let outerAlignment: Alignment = if direction == .vertical {
-                distance > 0 ? .bottom : .top
-            } else {
-                distance > 0 ? .trailing : .leading
-            }
+            let outerAlignment: Alignment = {
+                if direction == .vertical {
+                    return distance > 0 ? .bottom : .top
+                } else {
+                    return distance > 0 ? .trailing : .leading
+                }
+            }()
 
             ZStack(alignment: outerAlignment) {
                 Color.clear
@@ -93,13 +95,4 @@ public struct SwingAnimationModifier: ViewModifier {
         content.opacity(0)
             .overlay(overlayView(content: content))
     }
-}
-
-
-@available(iOS 16, *)
-#Preview {
-    Circle()
-        .foregroundStyle(.cyan)
-        .frame(width: 40, height: 40)
-        .modifier(SwingAnimationModifier(duration: 2, direction: .horizontal, distance: 100))
 }
