@@ -1,0 +1,11 @@
+name: CI - Pull Request
+on:
+  push:
+    branches:
+      - 'main'
+  workflow_dispatch:
+jobs:
+  swiftlint:
+    name: SwiftLint
+    uses: ./.github/workflows/lint.yml
+    secrets: inherit
