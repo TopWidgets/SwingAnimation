@@ -34,6 +34,10 @@ dependencies: [
     style = "width:100;height:100px;"    
     /></a>
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=TopWidgets/SwingAnimation&type=Date)](https://star-history.com/#TopWidgets/SwingAnimation&Date)
+
 ## License
 
 **SwingAnimation** is available under the MIT license. See the LICENSE file for more info.
