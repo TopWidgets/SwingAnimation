@@ -10,7 +10,9 @@
 
 
 ```swift
-content.swingAnimation(duration: 8, direction: .horizontal, distance: 100)
+content
+    .swingAnimation(duration: 4, direction: .horizontal, distance: 280)
+    .swingAnimation(duration: 1, direction: .vertical, distance: 60)
 ```
 
 ## Requirements
